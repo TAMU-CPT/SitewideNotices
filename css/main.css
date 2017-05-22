@@ -1,0 +1,25 @@
+.sitewide-notice-container {
+	padding: 0.5em;
+	font-size: 110%;
+}
+.sitewide-notice-header {
+	font-weight: 900;
+	padding: 0.3em;
+	margin: 0.3em;
+}
+.sitewide-notice-body {
+	color: #111;
+}
+
+.sitewide-notice-container.severity_0 .sitewide-notice-header {
+	border-left: 1em solid green;
+}
+.sitewide-notice-container.severity_1 .sitewide-notice-header {
+	border-left: 1em solid yellow;
+}
+.sitewide-notice-container.severity_2 .sitewide-notice-header {
+	border-left: 1em solid red;
+}
+.sitewide-notice-container.resolved .sitewide-notice-header {
+	border-left: 1em solid black;
+}

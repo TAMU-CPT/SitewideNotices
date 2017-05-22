@@ -18,8 +18,8 @@ ongoing or previous maintenance events:
 
 ```json
 [plugins.SitewideNotice]
-location = plugins/SitewideNotice
-#location = https://rawgit.com/TAMU-CPT/SitewideNotice/<commit>
+#location = plugins/SitewideNotice
+location = https://rawgit.com/TAMU-CPT/SitewideNotice/fe031eb66201730a8b6d5c3a5231e4216bf9b127/
 notice_url = https://fqdn.edu/notices.json
 label = Site Notice
 background_color = red

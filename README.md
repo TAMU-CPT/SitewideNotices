@@ -26,7 +26,7 @@ and over again.
 ```json
 [plugins.SitewideNotice]
 #location = plugins/SitewideNotice
-location = https://cdn.rawgit.com/TAMU-CPT/SitewideNotices/c7304f6435692f94541a1fbe6e56fa73044f218e/
+location = https://cdn.rawgit.com/TAMU-CPT/SitewideNotices/66210a07971e9c9bb1e3f87e1e4d36aa604ff0cb/
 notice_url = https://fqdn.edu/notices.json
 label = Site Notice
 background_color = red

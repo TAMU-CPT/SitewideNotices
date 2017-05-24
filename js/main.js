@@ -59,7 +59,7 @@ define(
 
 		get_seen: function(){
 			// Parse the user's cookie into an ID list.
-			var data = decodeURIComponent((cookie("jbrowseSiteWideNotices") || '').split(','));
+			var data = decodeURIComponent((cookie("jbrowseSiteWideNotices") || '')).split(',');
 			return data;
 		},
 
